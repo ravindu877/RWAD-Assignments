@@ -1,0 +1,136 @@
+
+section {
+    width: 50%;
+    height: 50%;
+    position: absolute;
+}
+
+section:nth-child(1) {
+    background-color: red;
+    left: 0;
+    top: 0;
+}
+
+section:nth-child(2) {
+    background-color: blue;
+    right: 0;
+    top: 0;
+}
+
+section:nth-child(3) {
+    background-color: green;
+    bottom: 0;
+    left: 0;
+}
+
+section:nth-child(4) {
+    background-color: yellow;
+    right: 0;
+    bottom: 0;
+}
+
+aside {
+    background-color: white;
+    width: 150px;
+    height: 150px;
+    position: absolute;
+}
+
+aside:nth-child(5) {
+    left: 0;
+    top: 0;
+    border-bottom-right-radius: 100%;
+}
+
+aside:nth-child(6) {
+    right: 0;
+    top: 0;
+    border-bottom-left-radius: 100%;
+}
+
+aside:nth-child(7) {
+    left: 0;
+    bottom: 0;
+    border-top-right-radius: 100%;
+}
+
+aside:nth-child(8) {
+    right: 0;
+    bottom: 0;
+    border-top-left-radius: 100%;
+}
+
+body>section>nav {
+    background-color: white;
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    border-radius: 100%;
+}
+
+body>section>nav>div>nav {
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+body>nav:nth-child(9) {
+    background-color: white;
+    width: 200px;
+    height: 100px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    border-bottom-right-radius: 120px;
+    border-bottom-left-radius: 120px;
+}
+
+body>div {
+    background-color: white;
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+body>nav:nth-child(11) {
+    background-color: white;
+    position: absolute;
+    width: 200px;
+    height: 100px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    border-top-left-radius: 120px;
+    border-top-right-radius: 120px;
+}
+
+
+body>main {
+    background-color: red;
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    margin: auto;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    border-radius: 50%;
+}
