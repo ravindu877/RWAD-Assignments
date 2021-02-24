@@ -1,0 +1,100 @@
+
+
+aside {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    margin: auto;
+    width: 230px;
+    height: 230px;
+    border: 18px solid #6b2dcc;
+    border-radius: 100%;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    margin: auto;
+    width: 260px;
+    height: 260px;
+    border: 20px solid #9932cc;
+    border-radius: 100%;
+}
+
+body>nav {
+    position: relative;
+    width: 98vw;
+    height: 100vh;
+}
+
+body>:nth-child(1)>div {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    width: 250px;
+    height: 250px;
+    background-color: purple;
+    border-radius: 100%;
+}
+
+body>:nth-child(1)>div>p {
+    color: white;
+    position: absolute;
+    font-weight: bold;
+    font-size: 30px;
+    left: 85px;
+    top: 75px;
+}
+
+body>:nth-child(2)>div {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    width: 250px;
+    height: 250px;
+    background-color: #1bcc3d;
+    border-radius: 100%;
+}
+
+body>:nth-child(2)>div>p {
+    color: white;
+    position: absolute;
+    font-weight: bold;
+    font-size: 30px;
+    left: 65px;
+    top: 75px;
+}
+
+body>:nth-child(3)>div {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    width: 250px;
+    height: 250px;
+    background-color: crimson;
+    border-radius: 100%;
+}
+
+body>:nth-child(3)>div>p {
+    color: white;
+    position: absolute;
+    font-weight: bold;
+    font-size: 30px;
+    left: 45px;
+    top: 45px;
+}
+
