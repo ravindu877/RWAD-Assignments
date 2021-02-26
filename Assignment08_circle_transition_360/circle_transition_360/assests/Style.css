@@ -1,0 +1,61 @@
+
+
+section {
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    border-radius: 100%;
+    cursor: pointer;
+}
+
+section::before {
+    content: " ";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    margin: auto;
+    border: 10px solid #bc51cc;
+    border-radius: 100%;
+    border-top: 10px solid #0301cc;
+    cursor: pointer;
+}
+
+section:hover {
+    transform: rotate(360deg);
+    transition: all 2s;
+}
+
+
+aside {
+    width: 150px;
+    height: 10px;
+    border-radius: 4px;
+    background: #0301cc;
+    position: absolute;
+    transform: rotate(133deg);
+    right: 0;
+    left: 33%;
+    top: 0;
+    bottom: 38%;
+    margin: auto;
+}
+
+div {
+    width: 30px;
+    height: 30px;
+    background: #0301cc;
+    border-radius: 100%;
+    bottom: 70%;
+    right: 0;
+    top: 0;
+    left: 63%;
+    margin: auto;
+    position: absolute;
+}
