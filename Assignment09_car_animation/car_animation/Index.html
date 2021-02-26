@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Assignment09_Car animation</title>
+
+    <style>
+        main {
+            width: 100vw;
+            position: relative;
+        }
+
+        main>div>img {
+            width: 100%;
+            height: 500px;
+            position: relative;
+        }
+
+        main>aside>img {
+            position: absolute;
+            top: 500px;
+            height: 30%;
+            animation: roadAnimation 10s;
+        }
+
+        main>nav>img {
+            position: absolute;
+            top: 140px;
+            animation: cityAnimation 10s;
+            width: 150%;
+        }
+
+        main>header>img {
+            position: absolute;
+            top: 400px;
+            height: 30%;
+            left: 450px;
+            animation: carAnimation 2s;
+        }
+
+        main>footer>img:nth-child(1) {
+            position: absolute;
+            width: 70px;
+            top: 480px;
+            left: 480px;
+        }
+
+        main>footer>img:nth-child(2) {
+            position: absolute;
+            width: 70px;
+            top: 480px;
+            left: 703px;
+        }
+
+        main>footer>img {
+            animation: wheelAnimation 10s;
+        }
+
+        @keyframes wheelAnimation {
+            0% {}
+            50% {
+                transform: rotate(360deg);
+            }
+            100% {
+                transform: rotate(100deg);
+            }
+        }
+
+        @keyframes skyAnimation {
+            0% {}
+            100% {
+                transform: translateX(20px);
+            }
+        }
+
+        @keyframes roadAnimation {
+            0% {}
+            100% {
+                transform: translateX(-1200px);
+            }
+        }
+
+        @keyframes cityAnimation {
+            0% {}
+            100% {
+                transform: translateX(-700px);
+            }
+        }
+
+        @keyframes carAnimation {}
+    </style>
+</head>
+<body>
+<main>
+    <div>
+        <img src="assests/sky.jpg" alt="sky">
+    </div>
+
+    <aside>
+        <img src="assests/road.jpg" alt="road">
+    </aside>
+
+    <nav>
+        <img src="assests/city.png" alt="city">
+    </nav>
+    <header>
+        <img src="assests/car.png" alt="car">
+    </header>
+    <footer>
+        <img src="assests/wheel.png" alt="wheel">
+        <img src="assests/wheel.png" alt="wheel">
+    </footer>
+</main>
+</body>
+</html>
